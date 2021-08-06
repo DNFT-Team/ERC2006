@@ -1,0 +1,13 @@
+.vscode/
+
+node_modules
+
+#Hardhat files
+cache
+artifacts
+data/abi/*
+bin/
+build/
+
+#config files
+secrets.json
