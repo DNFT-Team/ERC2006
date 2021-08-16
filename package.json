@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx hardhat run --network localhost scripts/deploy-script.js"
+    "deploy": "npx hardhat run --network localhost scripts/deploy-script.js",
+    "start": "npx hardhat run --network localhost scripts/NFT2006.js"
   },
   "repository": {
     "type": "git",
